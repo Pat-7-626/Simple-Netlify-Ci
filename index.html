@@ -1,37 +1,27 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator Project</title>
+</head>
+<body>
+    <h1>Calculator Project</h1>
 
-export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>SD Lab CD Demo</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <p>This project demonstrates CI/CD integration.</p>
 
-      <main>
-        <Header title="Welcome to SDLab!" />
+    <h2>Features</h2>
+    <ul>
+        <li>Addition</li>
+        <li>Subtraction</li>
+        <li>Multiplication</li>
+        <li>Division</li>
+        <li>Modulo</li>
+    </ul>
 
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
-        <h3>Contributors</h3>
-
-        <table border="1">
-          <tr>
-            <th>名前</th>
-            <th>日号</th>
-          </tr>
-          <tr>
-            <td>柏 祐太郎</td>
-            <td>2025/2/25</td>
-          </tr>
-        </table>
-      </main>
-
-      <Footer />
-    </div>
-  )
-}
+    <h2>CI Builds</h2>
+    <ul>
+        <li>Pytest</li>
+        <li>Coverage</li>
+        <li>Ruff Linter</li>
+    </ul>
+</body>
+</html>
